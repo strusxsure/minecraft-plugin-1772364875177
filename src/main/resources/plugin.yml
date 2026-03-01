@@ -1,0 +1,11 @@
+name: FireMaze Plugin
+version: 1.0
+main: com.stormai.plugin.FireMazePlugin
+api-version: 1.21
+authors: [StormAI]
+description: A simple maze plugin with fire-based mechanics.
+commands:
+  firemaze:
+    description: Main command for FireMaze Plugin
+    usage: /firemaze <reload|setheatdamage>
+    aliases: [fm]
